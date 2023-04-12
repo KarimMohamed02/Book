@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <Button
+        android:id="@+id/Hacker1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hacker1" />
+    <Button
+        android:id="@+id/Hacker2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hacker2" />
+    <Button
+        android:id="@+id/Hacker3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hacker3" />
+    <Button
+        android:id="@+id/Hacker4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hacker4" />
+
+
+
+    <Button
+        android:id="@+id/Hacker5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hacker5" />
+
+
+    <Button
+        android:id="@+id/Hacker6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hacker6" />
+
+    <Button
+        android:id="@+id/Hacker7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hacker7" />
+
+    <Button
+        android:id="@+id/Hacker8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hacker8" />
+
+
+    <Button
+        android:id="@+id/Backbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="200dp"
+        android:text="Back" />
+
+</LinearLayout>

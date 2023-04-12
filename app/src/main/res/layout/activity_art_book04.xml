@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ArtBook04"
+    android:padding="10dp"
+    android:background="#faebd7"
+    android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/the_lives_of_the_artists" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book title"
+            android:textColor="@color/title"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/title_content"
+            android:layout_width="250sp"
+            android:layout_height="wrap_content"
+            android:text="The Lives of the Artists by Giorgio Vasari"
+            android:textColor="@color/text"
+            android:textSize="24sp"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/book_describtion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book describtion"
+            android:textColor="@color/title"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/content1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Packed with facts, attributions, and entertaining anecdotes about his contemporaries, Giorgio Vasari's collection of biographical accounts also presents a highly influential theory of the development of Renaissance art.\nBeginning with Cimabue and Giotto, who represent the infancy of art, Vasari considers the period of youthful vigour, shaped by Donatello, Brunelleschi, Ghiberti, and Masaccio, before discussing the mature period of perfection, dominated by the titanic figures of Leonardo, Raphael, and Michelangelo.\nThis specially commissioned translation contains thirty-six of the most important lives as well as an introduction and explanatory notes."
+            android:textColor="@color/text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_marginTop="24sp"
+            android:id="@+id/book_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Summary"
+            android:textColor="@color/title"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+
+        <ImageView
+            android:id="@+id/link"
+            android:layout_width="164dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="24dp"
+            app:srcCompat="@drawable/kibin"/>
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Author"
+            android:textColor="@color/title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giorgio Vasari"
+            android:textSize="25sp"
+            android:textColor="@color/text"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

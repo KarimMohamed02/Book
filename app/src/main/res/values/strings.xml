@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">bookV.01</string>
+    <string name="new_user_signup">New User? <b>SignUp</b>></string>
+    <string name="please_login">Please Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="create_new_account">Create New Account</string> <!--    Make Signup Bold-->
+
+</resources>

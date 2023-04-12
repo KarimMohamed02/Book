@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BusinessBook04"
+    android:padding="10dp"
+    android:background="#faebd7"
+    android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/business_adventure" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book title"
+            android:textColor="@color/title"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/title_content"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Business Adventures"
+            android:textColor="@color/text"
+            android:textSize="24sp"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/book_describtion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book describtion"
+            android:textColor="@color/title"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/content1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Stories about Wall Street are infused with drama and adventure and reveal the machinations and volatile nature of the world of finance. John Brooks’s insightful reportage is so full of personality and critical detail that whether he is looking at the astounding market crash of 1962, the collapse of a well-known brokerage firm, or the bold attempt by American bankers to save the British pound, one gets the sense that history really does repeat itself"
+            android:textColor="@color/text"
+            android:textSize="20sp"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/contnet2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="These notable and fascinating accounts are as relevant today to understanding the intricacies of corporate life as they were when the events happened."
+            android:textColor="@color/text"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_marginTop="24sp"
+            android:id="@+id/book_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Summary"
+            android:textColor="@color/title"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/link"
+            android:layout_width="172dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="24dp"
+            app:srcCompat="@drawable/quickread" />
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Author"
+            android:textColor="@color/title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="John Brooks"
+            android:textSize="25sp"
+            android:textColor="@color/text"
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>

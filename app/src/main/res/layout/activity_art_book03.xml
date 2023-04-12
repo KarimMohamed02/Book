@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ArtBook03"
+    android:padding="10dp"
+    android:background="#faebd7"
+    android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/on_ugliness" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="On Ugliness by Umberto Eco"
+            android:textColor="@color/title"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/title_content"
+            android:layout_width="250sp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/text"
+            android:textSize="24sp"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/book_describtion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book describtion"
+            android:textColor="@color/title"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/content1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In the mold of his acclaimed 'History of Beauty,' renowned cultural critic Umberto Eco's 'On Ugliness' is an exploration of the monstrous and the repellant in visual culture and the arts. What is the voyeuristic impulse behind our attraction to the gruesome and the horrible? Where does the magnetic appeal of the sordid and the scandalous come from? Is ugliness also in the eye of the beholder? \nEco's encyclopedic knowledge and captivating storytelling skills combine in this ingenious study of the Ugly, revealing that what we often shield ourselves from and shun in everyday life is what we're most attracted to subliminally. Topics range from Milton's Satan to Goethe's Mephistopheles; from witchcraft and medieval torture tactics to martyrs, hermits, and penitents; from lunar births and disemboweled corpses to mythic monsters and sideshow freaks; and from Decadentism and picturesque ugliness to the tacky, kitsch, and camp, and the aesthetics of excess and vice. With abundant examples of painting and sculpture ranging from ancient Greek amphorae to Bosch, Brueghel, and Goya among others, and with quotations from the most celebrated writers and philosophers of each age, this provocative discussion explores in-depth the concepts of evil, depravity, and darkness in art and literature."
+            android:textColor="@color/text"
+            android:textSize="20sp"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/contnet2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/text"
+            android:textSize="20sp"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_marginTop="24sp"
+            android:id="@+id/book_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Summary"
+            android:textColor="@color/title"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+
+        <ImageView
+            android:id="@+id/link"
+            android:layout_width="wrap_content"
+            android:layout_height="100sp"
+            android:layout_marginTop="24dp"
+            app:srcCompat="@drawable/youtube" />
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Author"
+            android:textColor="@color/title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Umberto Eco"
+            android:textSize="25sp"
+            android:textColor="@color/text"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

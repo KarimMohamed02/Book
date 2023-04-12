@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BusinessBook01"
+    android:padding="10dp"
+    android:background="#faebd7"
+    android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/rework" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book title"
+            android:textColor="@color/title"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/title_content"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Girl with a Pearl Earring by Tracy Chevalier"
+            android:textColor="@color/text"
+            android:textSize="24sp"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/book_describtion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book describtion"
+            android:textColor="@color/title"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/content1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Most business books give you the same old advice: Write a business plan, study the competition, seek investors, yadda yadda. If you're looking for a book like that, put this one back on the shelf.\nRework shows you a better, faster, easier way to succeed in business. Read it and you'll know why plans are actually harmful, why you don't need outside investors, and why you're better off ignoring the competition. The truth is, you need less than you think. You don't need to be a workaholic. You don't need to staff up. You don't need to waste time on paperwork or meetings. You don't even need an office. Those are all just excuses. \nWhat you really need to do is stop talking and start working. This book shows you the way. You'll learn how to be more productive, how to get exposure without breaking the bank, and tons more counterintuitive ideas that will inspire and provoke you.\nWith its straightforward language and easy-is-better approach, Rework is the perfect playbook for anyone who’s ever dreamed of doing it on their own. Hardcore entrepreneurs, small-business owners, people stuck in day jobs they hate, victims of 'downsizing,' and artists who don’t want to starve anymore will all find valuable guidance in these pages."
+            android:textColor="@color/text"
+            android:textSize="20sp"
+            android:gravity="center"
+            />
+
+
+        <TextView
+            android:id="@+id/book_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24sp"
+            android:text="Book Summary"
+            android:textColor="@color/title"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/link"
+            android:layout_width="158dp"
+            android:layout_height="144dp"
+            android:layout_marginTop="24dp"
+            app:srcCompat="@drawable/fourminuteesbooks" />
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Author"
+            android:textColor="@color/title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jason Fried"
+            android:textSize="25sp"
+            android:textColor="@color/text"
+            />
+        <TextView
+            android:layout_marginTop="24sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Literary Awards"
+            android:textColor="@color/title"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text= "Good reads Choice Award Winners(2010)"
+            android:textColor="@color/text"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".book4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="#faebd7"
+            android:scrollbars="none">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="246dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/pic4" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book title"
+                android:textColor="@color/title"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title_content"
+                android:layout_width="250sp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Cleopatra"
+                android:textColor="@color/text"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/book_describtion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book describtion"
+                android:textColor="@color/title"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/content1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="A Life by Stacy Schiff "
+                android:textColor="@color/text"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/contnet2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Her palace shimmered with onyx, garnets, and gold, but was richer still in political and sexual intrigue. Above all else, Cleopatra was a shrewd strategist and an ingenious negotiator.
+
+Though her life spanned fewer than forty years, it reshaped the contours of the ancient world. She was married twice, each time to a brother. She waged a brutal civil war against the first when both were teenagers. She poisoned the second. Ultimately she dispensed with an ambitious sister as well; incest and assassination were family specialties. Cleopatra appears to have had sex with only two men. They happen, however, to have been Julius Caesar and Mark Antony, among the most prominent Romans of the day. Both were married to other women. Cleopatra had a child with Caesar and–after his murder–three more with his protégé. Already she was the wealthiest ruler in the Mediterranean; the relationship with Antony confirmed her status as the most influential woman of the age. The two would together attempt to forge a new empire, in an alliance that spelled their ends. Cleopatra has lodged herself in our imaginations ever since.
+
+Famous long before she was notorious, Cleopatra has gone down in history for all the wrong reasons. Shakespeare and Shaw put words in her mouth. Michelangelo, Tiepolo, and Elizabeth Taylor put a face to her name. Along the way, Cleopatra’s supple personality and the drama of her circumstances have been lost. In a masterly return to the classical sources, Stacy Schiff here boldly separates fact from fiction to rescue the magnetic queen whose death ushered in a new world order. Rich in detail, epic in scope, Schiff ‘s is a luminous, deeply original reconstruction of a dazzling life.
+ " android:textColor="@color/text"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/book_summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24sp"
+                android:text="Book Summary"
+                android:textColor="@color/title"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/link"
+                android:layout_width="wrap_content"
+                android:layout_height="100sp"
+                android:layout_marginTop="24dp"
+                app:srcCompat="@drawable/icon" />
+
+            <TextView
+                android:id="@+id/author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Author"
+                android:textColor="@color/title"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cleopatra"
+                android:textColor="@color/text"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24sp"
+                android:text="Literary Awards"
+                android:textColor="@color/title"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="PEN/Jacqueline Bograd Weld Award for Biography (2011), Goodreads Choice Award Nominee for History and Biography (2010)"
+                android:textColor="@color/text"
+                android:textSize="25sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

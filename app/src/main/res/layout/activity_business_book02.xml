@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BusinessBook02"
+    android:padding="10dp"
+    android:background="#faebd7"
+    android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/thefive" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book title"
+            android:textColor="@color/title"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/title_content"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="The Five Dysfunctions of a Team: A Leadership Fable"
+            android:textColor="@color/text"
+            android:textSize="24sp"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/book_describtion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book describtion"
+            android:textColor="@color/title"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/content1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In The Five Dysfunctions of a Team Patrick Lencioni once again offers a leadership fable that is as enthralling and instructive as his first two best-selling books, The Five Temptations of a CEO and The Four Obsessions of an Extraordinary Executive. This time, he turns his keen intellect and storytelling power to the fascinating, complex world of teams.."
+            android:textColor="@color/text"
+            android:textSize="20sp"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/contnet2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kathryn Petersen, Decision Tech's CEO, faces the ultimate leadership crisis: Uniting a team in such disarray that it threatens to bring down the entire company. Will she succeed? Will she be fired? Will the company fail? Lencioni's utterly gripping tale serves as a timeless reminder that leadership requires as much courage as it does insight.\n  Throughout the story, Lencioni reveals the five dysfunctions which go to the very heart of why teams even the best ones-often struggle. He outlines a powerful model and actionable steps that can be used to overcome these common hurdles and build a cohesive, effective team. Just as with his other books, Lencioni has written a compelling fable with a powerful yet deceptively simple message for all those who strive to be exceptional team leaders. "
+            android:textColor="@color/text"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_marginTop="24sp"
+            android:id="@+id/book_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Summary"
+            android:textColor="@color/title"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/link"
+            android:layout_width="182dp"
+            android:layout_height="178dp"
+            android:layout_marginTop="24dp"
+            app:srcCompat="@drawable/talentsquare" />
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Author"
+            android:textColor="@color/title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patrick Lencioni "
+            android:textSize="25sp"
+            android:textColor="@color/text"
+            />
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
